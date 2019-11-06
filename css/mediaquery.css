@@ -1,0 +1,140 @@
+@media screen and (max-width: 1080px) {
+  body .contenedor_contenido {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  header .contenedor .contenedor-header .contenedor-menu .menu {
+    text-align: center;
+  }
+  .main
+    .contenedor
+    .contenedor_card
+    .contenedor_contenido
+    .tarjeta_contenedora
+    .tarjeta {
+    width: 40%;
+  }
+  .main
+    .contenedor
+    .contenedor_card
+    .contenedor_contenido
+    .tarjeta_contenedora_reconocimiento {
+    padding: 20px 0px;
+  }
+}
+@media screen and (max-width: 553px) {
+  header
+    .contenedor
+    .contenedor-header
+    .contenedor-menu
+    .contenedor_contenido
+    .menus {
+    padding: 4px 20px;
+  }
+
+  header
+    .contenedor
+    .contenedor-header
+    .contenedor-banner
+    .contenedor_contenido
+    .banner
+    .texto
+    .titulo3,
+  header
+    .contenedor
+    .contenedor-header
+    .contenedor-banner
+    .contenedor_contenido
+    .banner
+    .logo {
+    display: none;
+  }
+  header
+    .contenedor
+    .contenedor-header
+    .contenedor-banner
+    .contenedor_contenido
+    .banner {
+    padding: 50px 0px;
+  }
+  /*----- secction ------*/
+  .main
+    .contenedor
+    .contenedor_card
+    .contenedor_contenido
+    .tarjeta_contenedora {
+    padding: 20px 0;
+  }
+  .main
+    .contenedor
+    .contenedor_card
+    .contenedor_contenido
+    .tarjeta_contenedora
+    .tarjeta {
+    width: 100%;
+  }
+  .main
+    .contenedor
+    .contenedor_card
+    .contenedor_contenido
+    .tarjeta_contenedora
+    .tarjeta:hover {
+    transform: none;
+  }
+
+  /* --------footer------- */
+  footer .contenedor .contenedor_footer .contenedor_contenido .informacion {
+    flex-direction: column;
+    padding: 30px 10px 0 10px;
+  }
+  footer .contenedor .informacion .acerca_de,
+  footer .contenedor .informacion .redes_sociales,
+  footer .contenedor .informacion .contactar {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  footer .contenedor .informacion .acerca_de {
+    order: 1;
+  }
+  footer .contenedor .informacion .redes_sociales {
+    order: 3;
+  }
+  footer .contenedor .informacion .contactar {
+    order: 2;
+  }
+  /* ------ slider -------- */
+  .main
+    .contenedor
+    .contenedor_card
+    .contenedor_contenido
+    .tarjeta_contenedora_reconocimiento {
+    height: auto;
+    width: 100%;
+  }
+  .main
+    .contenedor
+    .contenedor_card
+    .contenedor_contenido
+    .tarjeta_contenedora_reconocimiento
+    .slider
+    img {
+    width: 100%;
+  }
+  /* ------ botones ------ */
+  .botones {
+    /* tamaño de los desplazadores */
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    /* esto lo esta usando para centrar el texto dentro del boton */
+    line-height: 30px;
+  }
+  .atras {
+    top: calc(50% - 30px);
+  }
+  .adelante {
+    top: calc(50% - 30px);
+  }
+}

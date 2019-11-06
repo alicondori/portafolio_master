@@ -1,0 +1,3 @@
+el tama�o de las imagenes de programas, web que hay
+son tama�o panoramico(16:9)
+formato de la imagenes deben ser jpg
